@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #d2d816;
+}
+
+p {
+  max-width: 600px;
+}
+a {
+  color: #6466e4;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
