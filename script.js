@@ -1,6 +1,10 @@
-const getServicesBtn = document.getElementById("getServicesBtn");
-const servicesSection = document.getElementById("services");
+document.addEventListener("DOMContentLoaded", () => {
+  const getServicesBtn = document.getElementById("getServicesBtn");
+  const servicesSection = document.getElementById("services");
 
-getServicesBtn.addEventListener("click", () => {
-  servicesSection.scrollIntoView({ behavior: "smooth" });
+  if (getServicesBtn && servicesSection) {
+    getServicesBtn.addEventListener("click", () => {
+      servicesSection.scrollIntoView({ behavior: "smooth" });
+    });
+  }
 });
